@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# API Key: export GEMINI_API_KEY="AIzaSyAfGTQnXSxX2yeGaNGZ-PN9V549QWPA7ik"
+# API Key: export GEMINI_API_KEY="*"
 #
 # -*- coding: utf-8 -*-
 
