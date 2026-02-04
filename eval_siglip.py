@@ -56,7 +56,7 @@ def extract_sets(sample: Dict[str, Any]) -> Tuple[str, str, List[Dict[str, Any]]
       }
     """
     sid = str(sample.get("id", ""))
-    img_path = sample.get("image_path", "")
+    img_path = sample.get("image_path", "").replace('/workspace/RCLIP/','')
     sets = sample.get("sets", [])
     if not isinstance(img_path, str) or not img_path:
         raise ValueError("missing image_path")
